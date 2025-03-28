@@ -1,0 +1,42 @@
+{
+  "portraitScale": 2,
+  "portraitTranslation": [ -0.375, 4.52, 0 ],
+  "profileScale": 0.38,
+  "profileTranslation": [ 0, 1.2, 0 ],
+  "animations": {
+    "cry": "q.bedrock_stateful('urshifu_singlestrike', 'cry')",
+    "recoil": "q.bedrock_stateful('urshifu_singlestrike', 'recoil')"
+  },
+  "poses": { 
+    "battle-standing": {
+      "poseTypes": ["STAND"],
+      "isBattle": true,
+      "animations": [
+        "q.look('head')",
+        "q.bedrock('urshifu_singlestrike', 'battle_idle')"
+      ],
+      "quirks": [
+        "q.bedrock_quirk('urshifu_singlestrike', 'blink')"
+      ]
+    },
+    "standing": {
+      "poseTypes": ["STAND", "NONE", "PORTRAIT", "FLOAT", "PROFILE"],
+      "isBattle": false,
+      "animations": [
+        "q.look('head')",
+        "q.bedrock('urshifu_singlestrike', 'ground_idle')"
+      ],
+      "quirks": [
+        "q.bedrock_quirk('urshifu_singlestrike', 'blink')"
+      ]
+    },
+    "walking": {
+      "poseTypes": ["WALK", "SWIM"],
+      "animations": [
+        "q.look('head')",
+        "q.bedrock('urshifu_singlestrike', 'ground_idle')"
+      ],
+      "quirks": ["q.bedrock_quirk('urshifu_singlestrike', 'blink')"]
+    }
+  }
+}

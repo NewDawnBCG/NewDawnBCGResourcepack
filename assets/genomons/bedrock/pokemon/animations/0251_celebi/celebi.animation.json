@@ -1,0 +1,200 @@
+{
+	"format_version": "1.8.0",
+	"animations": {
+		"animation.celebi.ground_idle": {
+			"loop": true,
+			"bones": {
+				"bone4": {
+					"rotation": [-8.22067, -0.77096, -1.58996]
+				},
+				"arm_left": {
+					"rotation": [-1.71394, -4.69776, 40.07031]
+				},
+				"arm_left2": {
+					"rotation": [0, 0, -5]
+				},
+				"arm_left3": {
+					"rotation": [0, 0, -7.5]
+				},
+				"hand_left": {
+					"rotation": [0, 0, -15],
+					"position": [-0.24786, -0.03263, 0]
+				},
+				"bone23": {
+					"rotation": [0, 45, 0]
+				},
+				"bone25": {
+					"rotation": [0, -45, 0]
+				},
+				"leg_right": {
+					"rotation": [5, 0, 0]
+				},
+				"leg_left": {
+					"rotation": [15, 0, 0]
+				},
+				"arm_right": {
+					"rotation": [-1.71394, 4.69776, -40.07031]
+				},
+				"arm_right2": {
+					"rotation": [0, 0, 5]
+				},
+				"arm_right3": {
+					"rotation": [0, 0, 7.5]
+				},
+				"hand_right": {
+					"rotation": [0, 0, 15],
+					"position": [0.24786, -0.03263, 0]
+				},
+				"bone9": {
+					"rotation": [0, -45, 0]
+				},
+				"bone13": {
+					"rotation": [0, 45, 0]
+				},
+				"body": {
+					"rotation": [12.5, 0, 0],
+					"position": [0, 1, 0]
+				},
+				"wing_left": {
+					"rotation": [-10, 50, 0]
+				},
+				"wing_right": {
+					"rotation": [-10, -50, 0]
+				},
+				"antenne_left": {
+					"rotation": [-12.06838, -26.12797, 8.89674]
+				},
+				"antenne_left2": {
+					"rotation": [-30, 0, 0]
+				},
+				"antenne_left3": {
+					"rotation": [-30, 0, 0]
+				},
+				"antenne_left4": {
+					"rotation": [-15, 0, 0]
+				},
+				"antenne_left5": {
+					"rotation": [-30, 0, 0]
+				},
+				"antenne_left6": {
+					"rotation": [-44.11412, -3.16379, 4.4006]
+				},
+				"antenne_right": {
+					"rotation": [-12.06838, 26.12797, -8.89674]
+				},
+				"antenne_right2": {
+					"rotation": [-30, 0, 0]
+				},
+				"antenne_right3": {
+					"rotation": [-30, 0, 0]
+				},
+				"antenne_right4": {
+					"rotation": [-15, 0, 0]
+				},
+				"antenne_right5": {
+					"rotation": [-30, 0, 0]
+				},
+				"antenne_right6": {
+					"rotation": [-44.11412, 3.16379, -4.4006]
+				}
+			}
+		},
+		"animation.celebi.ground_walk": {
+			"loop": true,
+			"bones": {
+				"bone4": {
+					"rotation": [-20, 0, 0]
+				},
+				"arm_left": {
+					"rotation": [0, -15, 20]
+				},
+				"arm_left2": {
+					"rotation": [0, 0, -5]
+				},
+				"arm_left3": {
+					"rotation": [0, 0, -7.5]
+				},
+				"hand_left": {
+					"rotation": [0, 0, -15],
+					"position": [-0.24786, -0.03263, 0]
+				},
+				"bone23": {
+					"rotation": [0, 45, 0]
+				},
+				"bone25": {
+					"rotation": [0, -45, 0]
+				},
+				"leg_right": {
+					"rotation": [20, 0, 0]
+				},
+				"leg_left": {
+					"rotation": [27.5, 0, 0]
+				},
+				"arm_right": {
+					"rotation": [0, 15, -20]
+				},
+				"arm_right2": {
+					"rotation": [0, 0, 5]
+				},
+				"arm_right3": {
+					"rotation": [0, 0, 7.5]
+				},
+				"hand_right": {
+					"rotation": [0, 0, 15],
+					"position": [0.24786, -0.03263, 0]
+				},
+				"bone9": {
+					"rotation": [0, -45, 0]
+				},
+				"bone13": {
+					"rotation": [0, 45, 0]
+				},
+				"body": {
+					"rotation": [37.5, 0, 0]
+				},
+				"wing_left": {
+					"rotation": [-10, 50, 0]
+				},
+				"wing_right": {
+					"rotation": [-10, -50, 0]
+				},
+				"antenne_left": {
+					"rotation": [-12.06838, -26.12797, 8.89674]
+				},
+				"antenne_left2": {
+					"rotation": [-30, 0, 0]
+				},
+				"antenne_left3": {
+					"rotation": [-30, 0, 0]
+				},
+				"antenne_left4": {
+					"rotation": [-15, 0, 0]
+				},
+				"antenne_left5": {
+					"rotation": [-30, 0, 0]
+				},
+				"antenne_left6": {
+					"rotation": [-44.11412, -3.16379, 4.4006]
+				},
+				"antenne_right": {
+					"rotation": [-12.06838, 26.12797, -8.89674]
+				},
+				"antenne_right2": {
+					"rotation": [-30, 0, 0]
+				},
+				"antenne_right3": {
+					"rotation": [-30, 0, 0]
+				},
+				"antenne_right4": {
+					"rotation": [-15, 0, 0]
+				},
+				"antenne_right5": {
+					"rotation": [-30, 0, 0]
+				},
+				"antenne_right6": {
+					"rotation": [-44.11412, 3.16379, -4.4006]
+				}
+			}
+		}
+	}
+}

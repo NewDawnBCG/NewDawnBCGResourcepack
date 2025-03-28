@@ -1,0 +1,42 @@
+{
+  "portraitScale": 2.19,
+  "portraitTranslation": [ -2.86, 3.4, 0.0],
+  "profileScale": 0.44,
+  "profileTranslation": [-0.01, 1.08, 0.0],
+  "animations": {
+    "cry": "q.bedrock_stateful('zacian', 'cry')",
+    "recoil": "q.bedrock_stateful('zacian', 'recoil')"
+  },
+  "poses": { 
+    "battle-standing": {
+      "poseTypes": ["STAND"],
+      "isBattle": true,
+      "animations": [
+        "q.look('head')",
+        "q.bedrock('zacian', 'battle_idle')"
+      ],
+      "quirks": [
+        "q.bedrock_quirk('zacian', 'blink')"
+      ] 
+    },
+    "standing": {
+      "poseTypes": ["STAND", "NONE", "PORTRAIT", "FLOAT", "PROFILE"],
+      "isBattle": false,
+      "animations": [
+        "q.look('head')",
+        "q.bedrock('zacian', 'ground_idle')"
+      ],
+      "quirks": [
+        "q.bedrock_quirk('zacian', 'blink')"
+      ]
+    },
+    "walking": {
+      "poseTypes": ["WALK", "SWIM"],
+      "animations": [
+        "q.look('head')",
+        "q.bedrock('zacian', 'ground_idle')"
+      ],
+      "quirks": ["q.bedrock_quirk('zacian', 'blink')"]
+    }
+  }
+}
