@@ -1,7 +1,7 @@
 {
 	"format_version": "1.8.0",
 	"animations": {
-		"animation.cherubi.ground_walk2": {
+		"animation.cherubi.ground_walk": {
 			"loop": true,
 			"animation_length": 2,
 			"bones": {
@@ -653,7 +653,7 @@
 				}
 			}
 		},
-		"animation.cherubi_faint": {
+		"animation.cherubi.faint": {
 			"animation_length": 2.5,
 			"bones": {
 				"maincherubi": {
