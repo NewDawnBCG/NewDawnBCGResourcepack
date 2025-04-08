@@ -3,7 +3,7 @@
 	"minecraft:geometry": [
 		{
 			"description": {
-				"identifier": "geometry.cherubi",
+				"identifier": "geometry.suicune",
 				"texture_width": 64,
 				"texture_height": 64,
 				"visible_bounds_width": 2,
@@ -12,12 +12,7 @@
 			},
 			"bones": [
 				{
-					"name": "root",
-					"pivot": [3, 0, -4]
-				},
-				{
 					"name": "maincherubi",
-					"parent": "root",
 					"pivot": [-0.5, 5.5, -0.5],
 					"cubes": [
 						{"origin": [-5, 1, -5], "size": [9, 9, 9], "uv": [0, 0]}
@@ -25,41 +20,32 @@
 				},
 				{
 					"name": "legR",
-					"parent": "root",
-					"pivot": [3, 0, -4],
+					"parent": "maincherubi",
+					"pivot": [-2.5, 0.5, -0.5],
 					"cubes": [
 						{"origin": [-4, 0, -3], "size": [3, 1, 5], "uv": [0, 30]}
 					]
 				},
 				{
 					"name": "legL",
-					"parent": "root",
-					"pivot": [3, 0, -4],
+					"parent": "maincherubi",
+					"pivot": [1.5, 0.5, -0.5],
 					"cubes": [
 						{"origin": [0, 0, -3], "size": [3, 1, 5], "uv": [30, 18]}
 					]
 				},
 				{
-					"name": "stem",
-					"parent": "root",
-					"pivot": [3, 0, -4],
+					"name": "mainstem",
+					"parent": "maincherubi",
+					"pivot": [1.02428, 13.31913, 0.64282],
 					"cubes": [
 						{"origin": [-3, 7, -2], "size": [2, 15, 1], "pivot": [-2, 9, -1], "rotation": [-22.5, 0, 35], "uv": [24, 18]}
 					]
 				},
 				{
-					"name": "cherrubi2",
-					"parent": "root",
-					"pivot": [3, 0, -4],
-					"cubes": [
-						{"origin": [6.9, 9.9, 3.5], "size": [2, 9, 1], "pivot": [8, 15, 2], "rotation": [10, -22.5, -37.5], "uv": [16, 30]},
-						{"origin": [8, 7, 2], "size": [6, 6, 6], "pivot": [12, 9, 3], "rotation": [0, 0, -35], "uv": [0, 18]}
-					]
-				},
-				{
 					"name": "leafL",
-					"parent": "root",
-					"pivot": [5, 17, 5],
+					"parent": "mainstem",
+					"pivot": [8.86416, 18.30215, 4.8976],
 					"cubes": [
 						{"origin": [4.8, 16.3, 3.3], "size": [5, 3, 0], "pivot": [5, 17, 5], "rotation": [10, -22.5, -25], "uv": [30, 28]},
 						{"origin": [9, 15.3, 3.3], "size": [3, 1, 0], "pivot": [5, 16, 5], "rotation": [10, -22.5, -25], "uv": [30, 33]}
@@ -67,11 +53,27 @@
 				},
 				{
 					"name": "leafR",
-					"parent": "root",
-					"pivot": [3, 20, 4],
+					"parent": "mainstem",
+					"pivot": [-0.54483, 20.34479, 2.66194],
 					"cubes": [
 						{"origin": [-1.5, 17, 2.9], "size": [5, 4, 0], "pivot": [2, 19, 4], "rotation": [-22.5, 0, 35], "uv": [30, 24]},
 						{"origin": [-4, 18, 2.7], "size": [3, 2, 0], "pivot": [0, 20, 3], "rotation": [-22.5, 0, 35], "uv": [30, 31]}
+					]
+				},
+				{
+					"name": "stem2",
+					"parent": "mainstem",
+					"pivot": [9.02632, 11.75648, 4.43884],
+					"cubes": [
+						{"origin": [6.9, 9.9, 3.5], "size": [2, 9, 1], "pivot": [8, 15, 2], "rotation": [10, -22.5, -37.5], "uv": [16, 30]}
+					]
+				},
+				{
+					"name": "cherubi2",
+					"parent": "stem2",
+					"pivot": [0, 0, 0],
+					"cubes": [
+						{"origin": [8, 7, 2], "size": [6, 6, 6], "pivot": [12, 9, 3], "rotation": [0, 0, -35], "uv": [0, 18]}
 					]
 				}
 			]
