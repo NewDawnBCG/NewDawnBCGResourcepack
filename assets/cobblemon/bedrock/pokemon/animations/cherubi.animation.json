@@ -369,7 +369,7 @@
 				}
 			}
 		},
-		"animation.ground_idle": {
+		"animation.cherubi.ground_idle": {
 			"loop": true,
 			"animation_length": 1.5,
 			"bones": {
