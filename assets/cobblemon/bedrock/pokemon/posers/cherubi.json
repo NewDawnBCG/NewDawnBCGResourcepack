@@ -16,7 +16,6 @@
         "PROFILE"
       ],
       "animations": [
-        "look",
         "bedrock(cherubi, ground_idle)"
       ]
     },
