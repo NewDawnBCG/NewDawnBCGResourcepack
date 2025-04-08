@@ -21,10 +21,7 @@
         "animations": [
           "q.look('head')",
           "q.bedrock('gulpin', 'ground_idle')"
-        ],
-        "quirks": [
-          "q.bedrock_quirk('gulpin', 'blink')"
-       ]
+        ]
       },
       "battle": {
         "poseName": "battle_idle",
@@ -34,10 +31,7 @@
         "animations": [
           "q.look('head')",
           "q.bedrock('gulpin', 'battle_idle')"
-        ],
-        "quirks": [
-          "q.bedrock_quirk('gulpin', 'blink')"
-       ]
+        ]
       },
       "walking": {
         "poseName": "walking",
@@ -45,11 +39,7 @@
         "poseTypes": ["WALK"],
         "animations": [
           "q.bedrock('gulpin', 'ground_walk')"
-        ],
-        "quirks": [
-          "q.bedrock_quirk('gulpin', 'blink')",
-          "q.bedrock_quirk('gulpin', q.array('smile_quirk', 'tongue_quirk'), 60, 300, 1)"
-       ]
+        ]
       },
       "sleeping": {
         "poseName": "sleeping",
