@@ -6,23 +6,18 @@
 				"identifier": "geometry.rotom_wash",
 				"texture_width": 128,
 				"texture_height": 128,
-				"visible_bounds_width": 4,
-				"visible_bounds_height": 3.5,
-				"visible_bounds_offset": [0, 1.25, 0]
+				"visible_bounds_width": 5,
+				"visible_bounds_height": 2.5,
+				"visible_bounds_offset": [0, 0.75, 0]
 			},
 			"bones": [
 				{
 					"name": "rotom_wash",
-					"pivot": [0, 0, 0]
-				},
-				{
-					"name": "body_shake",
-					"parent": "rotom_wash",
-					"pivot": [0, 11, 0]
+					"pivot": [0, -4, 0]
 				},
 				{
 					"name": "body",
-					"parent": "body_shake",
+					"parent": "rotom_wash",
 					"pivot": [0, 11, 0],
 					"cubes": [
 						{"origin": [-6.5, 13, -5.5], "size": [13, 4, 11], "inflate": 0.01, "uv": [0, 0]},
@@ -222,13 +217,8 @@
 					]
 				},
 				{
-					"name": "tail_rotate",
-					"parent": "body",
-					"pivot": [-6.5, 6, 3.5]
-				},
-				{
 					"name": "tail",
-					"parent": "tail_rotate",
+					"parent": "body",
 					"pivot": [-6.5, 6, 3.5],
 					"cubes": [
 						{"origin": [-11, 5, 2.5], "size": [5, 2, 2], "inflate": 0.03, "uv": [20, 28]},

@@ -13,7 +13,7 @@
 			"bones": [
 				{
 					"name": "rotom_frost",
-					"pivot": [0, 0, 0]
+					"pivot": [0, -1.5, 0]
 				},
 				{
 					"name": "body",
