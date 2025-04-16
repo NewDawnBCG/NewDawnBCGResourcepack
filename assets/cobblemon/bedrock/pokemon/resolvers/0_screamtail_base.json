@@ -1,0 +1,32 @@
+{
+  "species": "cobblemon:screamtail",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "poser": "cobblemon:screamtail",
+      "model": "cobblemon:screamtail.geo",
+      "texture": "cobblemon:textures/pokemon/screamtail/screamtail.png",
+      "layers": [
+	  {
+			"name": "glow",
+			"texture": "cobblemon:textures/pokemon/screamtail/screamtail_emissive.png",
+			"emissive": true
+	  }
+	  ]
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/screamtail/screamtail_shiny.png",
+	  "layers": [
+	  {
+			"name": "glow",
+			"texture": "cobblemon:textures/pokemon/screamtail/screamtail_emissive_shiny.png",
+			"emissive": true
+	  }
+	  ]
+    }
+	]
+}

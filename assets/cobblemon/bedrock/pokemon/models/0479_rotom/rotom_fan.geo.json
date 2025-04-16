@@ -13,7 +13,7 @@
 			"bones": [
 				{
 					"name": "rotom_fan",
-					"pivot": [0, -9, 0]
+					"pivot": [0, 0, 0]
 				},
 				{
 					"name": "body",
