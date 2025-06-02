@@ -1,10 +1,6 @@
 {
     "pack": {
         "pack_format": 15,
-        "supported_formats": [
-            15, 
-            48
-        ],
-        "description": ["Resource pack used for ",{"text":"New Dawn","color":"#ff65c6"}]
+        "description": ["Resource pack used for ",{"text":"New Dawn","color":"#ff65c6"}, {"text":" BigChadGuys+","color":"#ff8800"}]
     }
 }
