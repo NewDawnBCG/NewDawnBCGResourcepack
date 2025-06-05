@@ -447,5 +447,15 @@
         "sounds": [
             "cobblemon:pokemon/tachyaton/tachyaton_freezingglare"
         ]
+    },
+    "pokemon.litleo.cry": {
+        "sounds": [
+            "cobblemon:pokemon/litleo/litleo_cry"
+        ]
+    },
+    "pokemon.pyroar.cry": {
+        "sounds": [
+            "cobblemon:pokemon/pyroar/pyroar_cry"
+        ]
     }
 }
