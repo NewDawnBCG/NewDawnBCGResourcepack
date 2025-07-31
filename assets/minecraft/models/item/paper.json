@@ -1,0 +1,14 @@
+{
+    "parent": "minecraft:item/handheld",
+    "textures": {
+        "layer0": "minecraft:item/paper"
+    },
+    "overrides": [
+        {
+            "model": "newdawn:item/laprasite",
+            "predicate": {
+                "custom_model_data": 1300
+            }
+        }
+    ]
+}
