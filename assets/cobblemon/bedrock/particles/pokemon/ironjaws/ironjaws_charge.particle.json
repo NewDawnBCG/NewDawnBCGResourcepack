@@ -1,0 +1,60 @@
+{
+	"format_version": "1.10.0",
+	"particle_effect": {
+		"description": {
+			"identifier": "cobblemon:ironjaws_charge",
+			"basic_render_parameters": {
+				"material": "particles_alpha",
+				"texture": "textures/particles/paralysis-spark"
+			}
+		},
+		"components": {
+			"minecraft:emitter_rate_instant": {
+				"num_particles": 1
+			},
+			"minecraft:emitter_lifetime_once": {
+				"active_time": 0.5
+			},
+			"minecraft:emitter_shape_point": {
+				"direction": [0, 0, -1]
+			},
+			"minecraft:particle_lifetime_expression": {
+				"max_lifetime": 0.5
+			},
+			"minecraft:particle_initial_spin": {
+				"rotation": "math.random(0,4) * 90"
+			},
+			"minecraft:particle_initial_speed": 3,
+			"minecraft:particle_motion_dynamic": {
+				"linear_acceleration": [0, 0, 2],
+				"linear_drag_coefficient": 2
+			},
+			"minecraft:particle_appearance_billboard": {
+				"size": [0.2, 0.2],
+				"facing_camera_mode": "rotate_xyz",
+				"uv": {
+					"texture_width": 80,
+					"texture_height": 8,
+					"flipbook": {
+						"base_UV": [0, 0],
+						"size_UV": [8, 8],
+						"step_UV": [8, 0],
+						"frames_per_second": 24,
+						"max_frame": 10,
+						"stretch_to_lifetime": true
+					}
+				}
+			},
+			"minecraft:particle_motion_collision": {},
+			"minecraft:particle_appearance_tinting": {
+				"color": {
+					"interpolant": "v.particle_age / v.particle_lifetime",
+					"gradient": {
+						"0.01": "#FFF67C00",
+						"0.45": "#FFFFFFFF"
+					}
+				}
+			}
+		}
+	}
+}

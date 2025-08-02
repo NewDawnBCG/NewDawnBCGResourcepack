@@ -1,0 +1,34 @@
+{
+ "species": "cobblemon:ironjaws",
+ "order": 0,
+ "variations": [
+   {
+     "aspects": [],
+     "poser": "cobblemon:ironjaws",
+     "model": "cobblemon:ironjaws.geo",
+     "texture": "cobblemon:textures/pokemon/ironjaws/ironjaws.png",
+     "layers": [
+       {
+              "name": "emissive",
+              "emissive": true,
+              "texture": "cobblemon:textures/pokemon/ironjaws/ironjaws_emissive.png",
+              "translucent": false
+        }
+     ]
+   },
+   {
+     "aspects": [
+       "shiny"
+     ],
+     "texture": "cobblemon:textures/pokemon/ironjaws/ironjaws_shiny.png",
+     "layers": [
+       {
+              "name": "emissive",
+              "emissive": true,
+              "texture": "cobblemon:textures/pokemon/ironjaws/ironjaws_emissive.png",
+              "translucent": false
+        }
+     ]
+   }
+ ]
+}

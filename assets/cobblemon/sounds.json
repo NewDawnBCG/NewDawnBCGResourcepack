@@ -457,5 +457,10 @@
         "sounds": [
             "cobblemon:pokemon/pyroar/pyroar_cry"
         ]
+    },
+    "pokemon.ironjaws.cry": {
+        "sounds": [
+            "cobblemon:pokemon/ironjaws/ironjaws_cry"
+        ]
     }
 }
