@@ -1,0 +1,58 @@
+{
+    "portraitScale": 2.1,
+    "portraitTranslation": [-0.25, -1.0, 0.0],
+    "profileScale": 0.85,
+    "profileTranslation": [0.0, 0.5, 0.0],
+    "rootBone": "turtwig",
+    "animations": {
+        "faint": "q.bedrock_primary('turtwig_dawnian', 'faint', q.curve('one'))",
+        "cry": "q.bedrock_stateful('turtwig_dawnian', 'cry')"
+    },
+    "poses": {
+        "idle": {
+            "transformTicks": 20,
+            "poseTypes": [
+                "STAND",
+                "FLOAT",
+                "HOVER",
+                "PORTRAIT",
+                "PROFILE"
+            ],
+            "animations": ["q.look('head')", "q.bedrock('turtwig_dawnian', 'ground_idle')"],
+            "quirks": [
+                "q.bedrock_quirk('turtwig_dawnian', 'blink')"
+            ]
+        },
+        "walk": {
+            "transformTicks": 10,
+            "poseTypes": [
+                "WALK",
+                "SWIM",
+                "FLY"
+            ],
+            "animations": ["q.look('head')", "q.bedrock('turtwig_dawnian', 'ground_walk')"],
+            "quirks": [
+                "q.bedrock_quirk('turtwig_dawnian', 'blink')"
+            ]
+        },
+        "sleep": {
+            "transformTicks": 10,
+            "poseTypes": ["SLEEP"],
+            "animations": ["q.look('head')", "q.bedrock('turtwig_dawnian', 'sleep')"]
+        },
+        "shoulder_left": {
+            "poseTypes": ["SHOULDER_LEFT"],
+            "animations": ["q.look('head')", "q.bedrock('turtwig_dawnian', 'shoulder_left')"],
+            "quirks": [
+                "q.bedrock_quirk('turtwig_dawnian', 'blink')"
+            ]
+        },
+        "shoulder_right": {
+            "poseTypes": ["SHOULDER_RIGHT"],
+            "animations": ["q.look('head')", "q.bedrock('turtwig_dawnian', 'shoulder_right')"],
+            "quirks": [
+                "q.bedrock_quirk('turtwig_dawnian', 'blink')"
+            ]
+        }
+    }
+}

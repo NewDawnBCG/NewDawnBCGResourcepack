@@ -1,0 +1,60 @@
+{
+    "portraitScale": 2.2,
+    "portraitTranslation": [-0.8, -1.0, 0.0],
+    "profileScale": 0.7,
+    "profileTranslation": [0.0, 0.65, 0.0],
+    "rootBone": "grotle",
+    "animations": {
+        "faint": "q.bedrock_primary('grotle_dawnian', 'faint', q.curve('one'))",
+        "cry": "q.bedrock_stateful('grotle_dawnian', 'cry')"
+    },
+    "poses": {
+        "idle": {
+            "transformTicks": 10,
+            "poseTypes": [
+                "STAND",
+                "FLOAT",
+                "HOVER",
+                "PORTRAIT",
+                "PROFILE"
+            ],
+            "animations": ["q.look('head')", "q.bedrock('grotle_dawnian', 'ground_idle')"],
+            "quirks": [
+                "q.bedrock_quirk('grotle_dawnian', 'blink')",
+                "q.bedrock_quirk('grotle_dawnian', 'quirk', 30, 360)"
+            ]
+        },
+        "battle_idle": {
+            "transformTicks": 10,
+            "poseTypes": [
+                "STAND",
+                "FLOAT",
+                "HOVER"
+            ],
+            "isBattle": true,
+            "animations": ["q.look('head')", "q.bedrock('grotle_dawnian', 'battle_idle')"],
+            "quirks": [
+                "q.bedrock_quirk('grotle_dawnian', 'blink')",
+                "q.bedrock_quirk('grotle_dawnian', 'quirk', 30, 360)"
+            ]
+        },
+        "walk": {
+            "transformTicks": 10,
+            "poseTypes": [
+                "WALK",
+                "SWIM",
+                "FLY"
+            ],
+            "animations": ["q.look('head')", "q.bedrock('grotle_dawnian', 'ground_walk')"],
+            "quirks": [
+                "q.bedrock_quirk('grotle_dawnian', 'blink')",
+                "q.bedrock_quirk('grotle_dawnian', 'quirk', 30, 360)"
+            ]
+        },
+        "sleep": {
+            "transformTicks": 10,
+            "poseTypes": ["SLEEP"],
+            "animations": ["q.look('head')", "q.bedrock('grotle_dawnian', 'sleep')"]
+        }
+    }
+}

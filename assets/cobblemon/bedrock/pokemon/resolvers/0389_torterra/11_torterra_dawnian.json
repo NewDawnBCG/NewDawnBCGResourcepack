@@ -1,0 +1,17 @@
+{
+    "species": "cobblemon:torterra",
+    "order": 11,
+    "variations": [
+        {
+            "aspects": ["dawnian"],
+            "poser": "cobblemon:torterra_dawnian",
+            "model": "cobblemon:torterra_dawnian.geo",
+            "texture": "cobblemon:textures/pokemon/0389_torterra/torterra_dawnian.png",
+            "layers": []
+        },
+        {
+            "aspects": ["dawnian", "shiny"],
+            "texture": "cobblemon:textures/pokemon/0389_torterra/torterra_dawnian_shiny.png"
+        }
+    ]
+}

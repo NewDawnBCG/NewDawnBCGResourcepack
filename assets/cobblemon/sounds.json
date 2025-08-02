@@ -462,5 +462,20 @@
         "sounds": [
             "cobblemon:pokemon/ironjaws/ironjaws_cry"
         ]
+    },
+    "pokemon.turtwig_dawnian.cry": {
+        "sounds": [
+            "cobblemon:pokemon/turtwig/turtwig_dawnian_cry"
+        ]
+    },
+    "pokemon.grotle_dawnian.cry": {
+        "sounds": [
+            "cobblemon:pokemon/grotle/grotle_dawnian_cry"
+        ]
+    },
+    "pokemon.torterra_dawnian.cry": {
+        "sounds": [
+            "cobblemon:pokemon/torterra/torterra_dawnian_cry"
+        ]
     }
 }

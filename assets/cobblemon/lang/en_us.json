@@ -97,5 +97,10 @@
     "cobblemon.species.lapras.desc": "As the ice age struck, Lapras continued to protect its passengers, enduring hardship itself. However, through its determination, energy surged within Lapras, allowing it to evolve beyond its normal form so it could keep protecting others.",
     "cobblemon.species.ironjaws.name": "Iron Jaws",
     "cobblemon.species.ironjaws.desc1": "This Pokémon bears many similarities to a ranged weapon described in a dubious magazine. Supposedly, aliens were once able to fire this weapon from interplanetary distances.",
-    "cobblemon.species.ironjaws.desc2": "Few eyewitness encounters account for a strong, voltaic current around the air of this Pokémon."
+    "cobblemon.species.ironjaws.desc2": "Few eyewitness encounters account for a strong, voltaic current around the air of this Pokémon.",
+    "cobblemon.species.turtwig_dawnian.desc": "Dawnian Turtwig seeks out discarded technology to repair and incorporate into the speaker-like appendage on its shell. They are sometimes seen around Torterra, which act as their mentors and as scrap suppliers.",
+    "cobblemon.species.grotle_dawnian.desc": "Dawnian Grotle blasts music day and night to grab the attention of passerby, only stopping to repair any damaged equipment. It often pairs up with local Tinkatuff, donating broken parts in exchange for their repairs and technical expertise.",
+    "cobblemon.species.torterra_dawnian.desc": "Dawnian Torterra is a living stage and a one man band, with people and Pokémon from all over flocking to their shows. Their equipment is largely dependent on the scrap available, making every individual Torterra’s music unique.",
+    "cobblemon.ability.bassboosted": "Bass Boosted",
+    "cobblemon.ability.bassboosted.desc": "Boosts the power of sound-based moves. The Pokémon also takes half the damage from these kinds of moves."
 }
