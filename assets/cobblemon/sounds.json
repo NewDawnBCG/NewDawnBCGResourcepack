@@ -477,5 +477,10 @@
         "sounds": [
             "cobblemon:pokemon/torterra/torterra_dawnian_cry"
         ]
+    },
+    "pokemon.queentana.cry": {
+        "sounds": [
+            "cobblemon:pokemon/queentana/queentana_cry"
+        ]
     }
 }

@@ -1,0 +1,18 @@
+{
+    "species": "cobblemon:queentana",
+    "order": 0,
+    "variations": [
+        {
+            "aspects": [],
+            "poser": "cobblemon:queentana",
+            "model": "cobblemon:queentana.geo",
+            "texture": "cobblemon:textures/pokemon/queentana/queentana.png",
+            "layers": []
+        },
+        {
+            "aspects": ["shiny"],
+            "texture": "cobblemon:textures/pokemon/queentana/queentana_shiny.png"
+        }
+
+    ]
+}

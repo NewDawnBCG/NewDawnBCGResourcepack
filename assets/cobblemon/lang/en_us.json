@@ -102,5 +102,7 @@
     "cobblemon.species.grotle_dawnian.desc": "Dawnian Grotle blasts music day and night to grab the attention of passerby, only stopping to repair any damaged equipment. It often pairs up with local Tinkatuff, donating broken parts in exchange for their repairs and technical expertise.",
     "cobblemon.species.torterra_dawnian.desc": "Dawnian Torterra is a living stage and a one man band, with people and Pokémon from all over flocking to their shows. Their equipment is largely dependent on the scrap available, making every individual Torterra’s music unique.",
     "cobblemon.ability.bassboosted": "Bass Boosted",
-    "cobblemon.ability.bassboosted.desc": "Boosts the power of sound-based moves. The Pokémon also takes half the damage from these kinds of moves."
+    "cobblemon.ability.bassboosted.desc": "Boosts the power of sound-based moves. The Pokémon also takes half the damage from these kinds of moves.",
+    "cobblemon.species.queentana.name": "Queentana",
+    "cobblemon.species.queentana.desc": "Legend has it the first Queentana's were female Pawniard's who joined forces after mistreatment from their Kingambit. Queentana formulates and executes brutal strategies for decisive victories. This Pokémon is often seen poaching Pawniard from rival Kingambit."
 }

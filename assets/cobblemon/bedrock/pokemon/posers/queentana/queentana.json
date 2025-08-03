@@ -1,0 +1,45 @@
+{
+    "portraitScale": 1.9,
+    "portraitTranslation": [-0.72, 2.5, 0],
+    "profileScale": 0.5,
+    "profileTranslation": [-0.1, 1.2, 0],
+    "rootBone": "queentana",
+    "animations": {
+        "cry": "q.bedrock_stateful('queentana', 'cry')"
+    },
+    "poses": {
+        "battle": {
+            "poseTypes": ["STAND"],
+            "isBattle": true,
+            "animations": ["q.look('head')", "q.bedrock('queentana', 'battle_idle')"],
+            "quirks": ["q.bedrock_quirk('queentana', 'blink')"]
+        },
+        "idle": {
+            "poseTypes": [
+                "STAND", 
+                "NONE", 
+                "FLOAT", 
+                "PORTRAIT", 
+                "PROFILE"
+            ],
+            "isBattle": false,
+            "animations": ["q.look('head')", "q.bedrock('queentana', 'ground_idle')"],
+            "quirks": ["q.bedrock_quirk('queentana', 'blink')"]
+        },
+        "walk": {
+            "poseTypes": [
+                "WALK", 
+                "SWIM"
+            ],
+            "animations": [
+                "q.look('head')",
+                "q.bedrock('queentana', 'ground_walk')"
+            ],
+            "quirks": ["q.bedrock_quirk('queentana', 'blink')"]
+        },
+        "sleep": {
+            "poseTypes": ["SLEEP"],
+            "animations": ["q.bedrock('queentana', 'sleep')"]
+        }
+    }
+}
