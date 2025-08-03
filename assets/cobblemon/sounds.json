@@ -482,5 +482,10 @@
         "sounds": [
             "cobblemon:pokemon/queentana/queentana_cry"
         ]
+    },
+    "pokemon.wendiglim.cry": {
+        "sounds": [
+            "cobblemon:pokemon/wendiglim/wendiglim_cry"
+        ]
     }
 }

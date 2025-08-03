@@ -104,5 +104,7 @@
     "cobblemon.ability.bassboosted": "Bass Boosted",
     "cobblemon.ability.bassboosted.desc": "Boosts the power of sound-based moves. The Pokémon also takes half the damage from these kinds of moves.",
     "cobblemon.species.queentana.name": "Queentana",
-    "cobblemon.species.queentana.desc": "Legend has it the first Queentana's were female Pawniard's who joined forces after mistreatment from their Kingambit. Queentana formulates and executes brutal strategies for decisive victories. This Pokémon is often seen poaching Pawniard from rival Kingambit."
+    "cobblemon.species.queentana.desc": "Legend has it the first Queentana's were female Pawniard's who joined forces after mistreatment from their Kingambit. Queentana formulates and executes brutal strategies for decisive victories. This Pokémon is often seen poaching Pawniard from rival Kingambit.",
+    "cobblemon.species.wendiglim.name": "Wendiglim",
+    "cobblemon.species.wendiglim.desc": "When the Sableyes deplete their supply of Carbink due to over-hunting, they resort to absorbing the souls of each other. Wendiglim emerges as the sole survivor, having devoured its whole pack, now cursed to wander the cold caves alone, forever ravenous."
 }

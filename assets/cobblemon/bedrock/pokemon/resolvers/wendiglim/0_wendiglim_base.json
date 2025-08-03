@@ -1,0 +1,19 @@
+{
+    "species": "cobblemon:wendiglim",
+    "order": 0,
+    "variations": [
+      {
+        "aspects": [],
+        "poser": "cobblemon:wendiglim",
+        "model": "cobblemon:wendiglim.geo",
+        "texture": "cobblemon:textures/pokemon/wendiglim/wendiglim.png",
+        "layers": []
+      },
+      {
+        "aspects": [
+          "shiny"
+        ],
+        "texture": "cobblemon:textures/pokemon/wendiglim/wendiglim_shiny.png"
+      }
+    ]
+   }
