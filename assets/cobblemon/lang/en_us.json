@@ -114,5 +114,7 @@
     "cobblemon.ability.formation": "Formation",
     "cobblemon.ability.formation.desc": "The Pokémon switches its formation between offensive and defensive at the end of each turn.",
     "cobblemon.move.initiative": "Initiative",
-    "cobblemon.move.initiative.desc": "Depending on their formation, Falinks either attack by focusing a beam that may lower the target's Sp. Atk stat or they increase their Sp. Atk and Sp. Def stats by calming their minds."
+    "cobblemon.move.initiative.desc": "Depending on their formation, Falinks either attack by focusing a beam that may lower the target's Sp. Atk stat or they increase their Sp. Atk and Sp. Def stats by calming their minds.",
+    "cobblemon.move.mrofsnart": "Transform",
+    "cobblemon.move.mrofsnart.desc": "The user transforms the target into a copy of itself right down to having the same move set."
 }
