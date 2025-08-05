@@ -1,27 +1,27 @@
 {
     "species": "cobblemon:luxray",
-    "order": 1,
+    "order": 2,
     "variations": [
-      {
-        "aspects": ["dawnian"],
-        "poser": "cobblemon:luxray_dawnian",
-        "model": "cobblemon:luxray_dawnian.geo",
-        "texture": "cobblemon:textures/pokemon/0405_luxray/luxray_dawnian.png",
-        "layers": [
-          {
-            "name": "emissive",
-            "emissive": true,
-            "texture": "cobblemon:textures/pokemon/0405_luxray/luxray_dawnian_emissive.png",
-            "translucent": true
-      }
-        ]
-      },
-      {
-        "aspects": [
-          "dawnian",
-          "shiny"
-        ],
-        "texture": "cobblemon:textures/pokemon/0405_luxray/luxray_dawnian_shiny.png"
-      }
+        {
+            "aspects": ["dawnian"],
+            "poser": "cobblemon:luxray_dawnian",
+            "model": "cobblemon:luxray_dawnian.geo",
+            "texture": "cobblemon:textures/pokemon/0405_luxray/luxray_dawnian.png",
+            "layers": [
+                {
+                    "name": "emissive",
+                    "emissive": true,
+                    "texture": "cobblemon:textures/pokemon/0405_luxray/luxray_dawnian_emissive.png",
+                    "translucent": true
+                }
+            ]
+        },
+        {
+            "aspects": [
+                "dawnian",
+                "shiny"
+            ],
+            "texture": "cobblemon:textures/pokemon/0405_luxray/luxray_dawnian_shiny.png"
+        }
     ]
-   }
+}
