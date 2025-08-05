@@ -487,5 +487,10 @@
         "sounds": [
             "cobblemon:pokemon/wendiglim/wendiglim_cry"
         ]
+    },
+    "pokemon.falinks_dawnian.cry": {
+        "sounds": [
+            "cobblemon:pokemon/falinks/falinks_dawnian_cry"
+        ]
     }
 }

@@ -1,0 +1,28 @@
+{
+    "species": "cobblemon:falinks",
+    "order": 1,
+    "variations": [
+        {
+            "aspects": ["dawnian"],
+            "model": "cobblemon:falinks_dawnian.geo"
+        },
+        {
+            "aspects": ["dawnian", "offensive-formation"],
+            "poser": "cobblemon:falinks_dawnian",
+            "texture": "cobblemon:textures/pokemon/0870_falinks/falinks_dawnian.png"
+        },
+        {
+            "aspects": ["dawnian", "offensive-formation", "shiny"],
+            "texture": "cobblemon:textures/pokemon/0870_falinks/falinks_dawnian_shiny.png"
+        },
+        {
+            "aspects": ["dawnian", "defensive-formation"],
+            "poser": "cobblemon:falinks_dawnian_defensive",
+            "texture": "cobblemon:textures/pokemon/0870_falinks/falinks_dawnian.png"
+        },
+        {
+            "aspects": ["dawnian", "defensive-formation", "shiny"],
+            "texture": "cobblemon:textures/pokemon/0870_falinks/falinks_dawnian_shiny.png"
+        }
+    ]
+}

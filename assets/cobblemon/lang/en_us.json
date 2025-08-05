@@ -106,5 +106,13 @@
     "cobblemon.species.queentana.name": "Queentana",
     "cobblemon.species.queentana.desc": "Legend has it the first Queentana's were female Pawniard's who joined forces after mistreatment from their Kingambit. Queentana formulates and executes brutal strategies for decisive victories. This Pokémon is often seen poaching Pawniard from rival Kingambit.",
     "cobblemon.species.wendiglim.name": "Wendiglim",
-    "cobblemon.species.wendiglim.desc": "When the Sableyes deplete their food supply, they resort to consuming one another. Wendiglim emerges as the sole survivor, now cursed to wander alone, always seeking their next meal."
+    "cobblemon.species.wendiglim.desc": "When the Sableyes deplete their food supply, they resort to consuming one another. Wendiglim emerges as the sole survivor, now cursed to wander alone, always seeking their next meal.",
+    "cobblemon.species.falinks_dawnian_offensive.desc": "The six of them work together as one Pokémon. Teamwork is also their battle strategy, and they constantly change their formation as they fight.",
+    "cobblemon.species.falinks_dawnian_defensive.desc": "The six of them work together as one Pokémon. Teamwork is also their battle strategy, and they constantly change their formation as they fight.",
+    "cobblemon.ui.pokedex.info.form.dawnian-offensive": "Dawnian (Offensive)",
+    "cobblemon.ui.pokedex.info.form.dawnian-defensive": "Dawnian (Defensive)",
+    "cobblemon.ability.formation": "Formation",
+    "cobblemon.ability.formation.desc": "The Pokémon switches its formation between offensive and defensive at the end of each turn.",
+    "cobblemon.move.initiative": "Initiative",
+    "cobblemon.move.initiative.desc": "Depending on their formation, Falinks either attack by focusing a beam that may lower the target's Sp. Atk stat or they increase their Sp. Atk and Sp. Def stats by calming their minds."
 }
