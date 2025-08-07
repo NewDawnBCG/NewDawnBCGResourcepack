@@ -866,7 +866,7 @@
 			},
 			"sound_effects": {
 				"1.875": {
-					"effect": "tachyaton_faint"
+					"effect": "pokemon.tachyaton.faint"
 				}
 			}
 		},
@@ -890,7 +890,7 @@
 			},
 			"sound_effects": {
 				"0.0417": {
-					"effect": "tachyaton_freezingglare"
+					"effect": "pokemon.tachyaton.freezingglare"
 				}
 			}
 		}
