@@ -116,5 +116,7 @@
     "cobblemon.move.initiative": "Initiative",
     "cobblemon.move.initiative.desc": "Depending on their formation, Falinks either attack by focusing a beam that may lower the target's Sp. Atk stat or they increase their Sp. Atk and Sp. Def stats by calming their minds.",
     "cobblemon.move.mrofsnart": "Transform",
-    "cobblemon.move.mrofsnart.desc": "The user transforms the target into a copy of itself right down to having the same move set."
+    "cobblemon.move.mrofsnart.desc": "The user transforms the target into a copy of itself right down to having the same move set.",
+    "cobblemon.species.ironexo.name": "Iron Exo",
+    "cobblemon.species.ironexo.desc": "This Pokémon appeared in a small rural village hiding in the trees. Local legend says that the Pokémon is an exo skeleton wrapping a smaller Pokémon inside of it. This has given it the name “Iron Exo”. Iron Exo is not outright malicious, and seems to remember the Pokémon it once was."
 }

@@ -1,0 +1,18 @@
+{
+  "species": "cobblemon:ironexo",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "poser": "cobblemon:ironexo",
+      "model": "cobblemon:ironexo.geo",
+      "texture": "cobblemon:textures/pokemon/ironexo/ironexo.png",
+      "layers": []
+    },
+    {
+      "aspects": ["shiny"],
+      "texture": "cobblemon:textures/pokemon/ironexo/ironexo_shiny.png",
+      "layers": []
+    }
+  ]
+}

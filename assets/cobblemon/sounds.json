@@ -492,5 +492,10 @@
         "sounds": [
             "cobblemon:pokemon/falinks/falinks_dawnian_cry"
         ]
+    },
+    "pokemon.ironexo.cry": {
+        "sounds": [
+            "cobblemon:pokemon/ironexo/ironexo_cry"
+        ]
     }
 }
