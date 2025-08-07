@@ -4,25 +4,20 @@
     "variations": [
         {
             "aspects": ["dawnian"],
-            "model": "cobblemon:falinks_dawnian.geo"
+            "model": "cobblemon:falinks_dawnian.geo",
+            "texture": "cobblemon:textures/pokemon/0870_falinks/falinks_dawnian.png"
+        },
+        {
+            "aspects": ["dawnian", "shiny"],
+            "texture": "cobblemon:textures/pokemon/0870_falinks/falinks_dawnian_shiny.png"
         },
         {
             "aspects": ["dawnian", "offensive-formation"],
-            "poser": "cobblemon:falinks_dawnian",
-            "texture": "cobblemon:textures/pokemon/0870_falinks/falinks_dawnian.png"
-        },
-        {
-            "aspects": ["dawnian", "offensive-formation", "shiny"],
-            "texture": "cobblemon:textures/pokemon/0870_falinks/falinks_dawnian_shiny.png"
+            "poser": "cobblemon:falinks_dawnian"
         },
         {
             "aspects": ["dawnian", "defensive-formation"],
-            "poser": "cobblemon:falinks_dawnian_defensive",
-            "texture": "cobblemon:textures/pokemon/0870_falinks/falinks_dawnian.png"
-        },
-        {
-            "aspects": ["dawnian", "defensive-formation", "shiny"],
-            "texture": "cobblemon:textures/pokemon/0870_falinks/falinks_dawnian_shiny.png"
+            "poser": "cobblemon:falinks_dawnian_defensive"
         }
     ]
 }

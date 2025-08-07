@@ -5,17 +5,14 @@
     "profileTranslation": [0.1, 0.9, 0.0],
     "rootBone": "falinks",
     "animations": {
+        "faint": "q.bedrock_primary('falinks_dawnian', 'faint', q.curve('one'))",
         "cry": "q.bedrock_stateful('falinks_dawnian', 'cry')",
         "physical": "q.bedrock_primary('falinks_dawnian', 'physical_attack', q.curve('symmetrical_wide'))",
-        "special": "q.bedrock_primary('falinks_dawnian', 'physical_attack', q.curve('symmetrical_wide'))",
-        "faint": "q.bedrock_primary('falinks_dawnian', 'faint', q.curve('one'))"
+        "special": "q.bedrock_primary('falinks_dawnian', 'physical_attack', q.curve('symmetrical_wide'))"
     },
     "poses": {
-        "summary": {
-            "poseTypes": [
-                "PORTRAIT",
-                "PROFILE"
-            ],
+        "ui": {
+            "poseTypes": ["PORTRAIT", "PROFILE"],
             "isBattle": false,
             "animations": [
                 "q.bedrock('falinks_dawnian', 'summary_idle')"
@@ -29,11 +26,23 @@
                 "q.bedrock_quirk('falinks_dawnian', 'blink6')"
             ]
         },
-        "standing": {
-            "poseTypes": [
-                "STAND",
-                "NONE"
+        "battle-standing": {
+            "poseTypes": ["STAND"],
+            "isBattle": true,
+            "animations": [
+                "q.bedrock('falinks_dawnian', 'battle_idle')"
             ],
+            "quirks": [ 
+                "q.bedrock_quirk('falinks_dawnian', 'blink')",
+                "q.bedrock_quirk('falinks_dawnian', 'blink2')",
+                "q.bedrock_quirk('falinks_dawnian', 'blink3')",
+                "q.bedrock_quirk('falinks_dawnian', 'blink4')",
+                "q.bedrock_quirk('falinks_dawnian', 'blink5')",
+                "q.bedrock_quirk('falinks_dawnian', 'blink6')"
+            ]
+        },
+        "standing": {
+            "poseTypes": ["STAND", "NONE", "FLOAT"],
             "isBattle": false,
             "animations": [
                 "q.bedrock('falinks_dawnian', 'ground_idle')"
@@ -47,25 +56,8 @@
                 "q.bedrock_quirk('falinks_dawnian', 'blink6')"
             ]
         },
-        "battle-standing": {
-            "poseTypes": [
-                "STAND"
-            ],
-            "isBattle": true,
-            "animations": [
-                "q.bedrock('falinks_dawnian', 'battle_idle')"
-            ],
-            "quirks": [
-                "q.bedrock_quirk('falinks_dawnian', 'blink')",
-                "q.bedrock_quirk('falinks_dawnian', 'blink2')",
-                "q.bedrock_quirk('falinks_dawnian', 'blink3')",
-                "q.bedrock_quirk('falinks_dawnian', 'blink4')",
-                "q.bedrock_quirk('falinks_dawnian', 'blink5')",
-                "q.bedrock_quirk('falinks_dawnian', 'blink6')"
-            ]
-        },
         "walking": {
-            "poseTypes": ["WALK"],
+            "poseTypes": ["WALK", "SWIM"],
             "animations": [
                 "q.bedrock('falinks_dawnian', 'ground_walk')"
             ],
@@ -78,11 +70,10 @@
                 "q.bedrock_quirk('falinks_dawnian', 'blink6')"
             ]
         },
-        "sleeping": {
+        "sleep": {
             "poseTypes": ["SLEEP"],
-            "animations": [
-                "q.bedrock('falinks_dawnian', 'sleep')"
-            ]
+            "animations": ["q.bedrock('falinks_dawnian', 'sleep')"]
         }
+
     }
 }
