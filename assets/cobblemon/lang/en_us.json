@@ -118,5 +118,7 @@
     "cobblemon.move.mrofsnart": "Transform",
     "cobblemon.move.mrofsnart.desc": "The user transforms the target into a copy of itself right down to having the same move set.",
     "cobblemon.species.ironexo.name": "Iron Exo",
-    "cobblemon.species.ironexo.desc": "This Pokémon appeared in a small rural village hiding in the trees. Local legend says that the Pokémon is an exo skeleton wrapping a smaller Pokémon inside of it. This has given it the name “Iron Exo”. Iron Exo is not outright malicious, and seems to remember the Pokémon it once was."
+    "cobblemon.species.ironexo.desc": "This Pokémon appeared in a small rural village hiding in the trees. Local legend says that the Pokémon is an exo skeleton wrapping a smaller Pokémon inside of it. This has given it the name “Iron Exo”. Iron Exo is not outright malicious, and seems to remember the Pokémon it once was.",
+    "cobblemon.species.lumberingdunce.name": "Lumbering Dunce",
+    "cobblemon.species.lumberingdunce.desc": "This creature resembles an odd combination of two closely related Pokémon. It is so giant that the ground below it sometimes gives way, creating sink holes. This Pokémon doesn’t appear to have a brain, which has stumped researchers."
 }

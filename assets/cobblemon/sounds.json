@@ -497,5 +497,10 @@
         "sounds": [
             "cobblemon:pokemon/ironexo/ironexo_cry"
         ]
+    },
+    "pokemon.lumberingdunce.cry": {
+        "sounds": [
+            "cobblemon:pokemon/lumberingdunce/lumberingdunce_cry"
+        ]
     }
 }

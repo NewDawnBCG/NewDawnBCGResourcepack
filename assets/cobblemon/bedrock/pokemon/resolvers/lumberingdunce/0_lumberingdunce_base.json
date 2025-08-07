@@ -1,0 +1,18 @@
+{
+  "species": "cobblemon:lumberingdunce",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "poser": "cobblemon:lumberingdunce",
+      "model": "cobblemon:lumberingdunce.geo",
+      "texture": "cobblemon:textures/pokemon/lumberingdunce/lumberingdunce.png",
+      "layers": []
+    },
+    {
+      "aspects": ["shiny"],
+      "texture": "cobblemon:textures/pokemon/lumberingdunce/lumberingdunce_shiny.png",
+      "layers": []
+    }
+  ]
+}
