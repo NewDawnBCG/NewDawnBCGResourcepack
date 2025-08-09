@@ -7,12 +7,26 @@
       "poser": "cobblemon:ironexo",
       "model": "cobblemon:ironexo.geo",
       "texture": "cobblemon:textures/pokemon/ironexo/ironexo.png",
-      "layers": []
+      "layers": [
+        {
+          "name": "emissive",
+          "emissive": true,
+          "texture": "cobblemon:textures/pokemon/ironexo/ironexo_emissive.png",
+          "translucent": true
+        }
+      ]
     },
     {
       "aspects": ["shiny"],
       "texture": "cobblemon:textures/pokemon/ironexo/ironexo_shiny.png",
-      "layers": []
+      "layers": [
+        {
+          "name": "emissive",
+          "emissive": true,
+          "texture": "cobblemon:textures/pokemon/ironexo/ironexo_shiny_emissive.png",
+          "translucent": true
+        }
+      ]
     }
   ]
 }
