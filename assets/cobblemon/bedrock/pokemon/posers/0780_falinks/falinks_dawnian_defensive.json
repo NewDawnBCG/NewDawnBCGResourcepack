@@ -11,21 +11,6 @@
         "special": "q.bedrock_primary('falinks_dawnian', 'physical_attack', q.curve('symmetrical_wide'))"
     },
     "poses": {
-        "ui": {
-            "poseTypes": ["PORTRAIT", "PROFILE"],
-            "isBattle": false,
-            "animations": [
-                "q.bedrock('falinks_dawnian', 'summary_idle')"
-            ],
-            "quirks": [
-                "q.bedrock_quirk('falinks_dawnian', 'blink')",
-                "q.bedrock_quirk('falinks_dawnian', 'blink2')",
-                "q.bedrock_quirk('falinks_dawnian', 'blink3')",
-                "q.bedrock_quirk('falinks_dawnian', 'blink4')",
-                "q.bedrock_quirk('falinks_dawnian', 'blink5')",
-                "q.bedrock_quirk('falinks_dawnian', 'blink6')"
-            ]
-        },
         "battle-standing": {
             "poseTypes": ["STAND"],
             "isBattle": true,
@@ -42,7 +27,7 @@
             ]
         },
         "standing": {
-            "poseTypes": ["STAND", "NONE", "FLOAT"],
+            "poseTypes": ["STAND", "NONE", "FLOAT", "PORTRAIT", "PROFILE"],
             "isBattle": false,
             "animations": [
                 "q.bedrock('falinks_dawnian', 'summary_idle')"
