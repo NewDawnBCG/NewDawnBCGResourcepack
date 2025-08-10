@@ -12,12 +12,12 @@
             "texture": "cobblemon:textures/pokemon/0870_falinks/falinks_dawnian_shiny.png"
         },
         {
-            "aspects": ["dawnian", "offensive-formation"],
-            "poser": "cobblemon:falinks_dawnian"
-        },
-        {
             "aspects": ["dawnian", "defensive-formation"],
             "poser": "cobblemon:falinks_dawnian_defensive"
+        },
+        {
+            "aspects": ["dawnian", "offensive-formation"],
+            "poser": "cobblemon:falinks_dawnian_offensive"
         }
     ]
 }
