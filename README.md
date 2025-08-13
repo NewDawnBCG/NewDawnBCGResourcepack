@@ -53,14 +53,31 @@ Many thanks to the different mod authors and artists that contribute to the pack
 
 ### Contributors 
 
-- [Lukidon](https://linktr.ee/lukidon) (Okidogi, Fezandipiti, Munkidori, Galarian Weezing, Iron Hands, Sandy Shocks, Dawnian Numel Line, Dawnian Yamask Line, Dawnian Heracross)
-- Stewwen27 & eelimey (Swirlix Line, Spidops Unbound, New Dawnian Lilligant)
+- [Lukidon](https://linktr.ee/lukidon)
+  - Okidogi
+  - Fezandipiti
+  - Munkidori
+  - Galarian Weezing
+  - Iron Hands
+  - Sandy Shocks
+  - Dawnian Numel Line
+  - Dawnian Yamask Line
+  - Dawnian Heracross
+  - Dawnian Falinks
+  - Queentana
+  - Iron Exo
+  - Lumbering Dunce
+- Stewwen27 & eelimey (Swirlix Line, Spidops Unbound, Dawnian Lilligant)
 - UselessGoddess (Cherubi Line, Koraidon, Miraidon)
-- ItsJustJ (New Dawnian Sableye, Dripplin)
-- Deuli (Basketball..?, Lucky Meowth, Gen 1 Starter Mimikyus, Meloetta fixes, and 90% of bug fixes (we love you Deuli))
+- ItsJustJ (Dawnian Sableye, Dripplin, Wendiglim)
+- deuli (Basketball..?, Lucky Meowth, Gen 1 Starter Mimikyus, Meloetta fixes, and 90% of bug fixes (we love you Deuli))
 - Omniv (Bug and Texture Fixes)
 - Unseennote (Commissioner)
 - Edancheese (Commissioner/Concept Drafter)
 - Commercial0505 (Stat Balancing, Commissioner, Sound Design)
 - SidewaysSteven (Commissioner, Stat Balancing)
-- xParallels (Tachyaton)
+- xParallels (Tachyaton, Iron Jaws)
+- CPUPanda (Mega Lapras)
+- \_Pikachu\_P3rvy\_ (Commissioner for Dawnian Turtwig line)
+- Riamo (Commissioner, Stat Balancing)
+- pokemark (Commissioner)
